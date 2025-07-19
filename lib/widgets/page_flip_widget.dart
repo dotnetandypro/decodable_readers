@@ -3,6 +3,7 @@ import 'dart:math' as math;
 import 'package:flutter/services.dart';
 import '../services/settings_service.dart';
 import '../services/word_audio_service.dart';
+import 'cached_story_image.dart';
 
 // New widget for text page with background
 class TextPageWidget extends StatefulWidget {
@@ -194,53 +195,9 @@ class ImagePageWidget extends StatelessWidget {
             Positioned.fill(
               child: Container(
                 color: Colors.white,
-                child: Image.asset(
-                  imagePath,
+                child: CachedStoryImage(
+                  imagePath: imagePath,
                   fit: BoxFit.cover, // Fill entire box like text_cover.png
-                  frameBuilder:
-                      (context, child, frame, wasSynchronouslyLoaded) {
-                    if (frame != null) {
-                      debugPrint('✅ Successfully loaded image: $imagePath');
-                    }
-                    return child;
-                  },
-                  errorBuilder: (context, error, stackTrace) {
-                    debugPrint('❌ Failed to load image: $imagePath');
-                    debugPrint('❌ Error: $error');
-                    debugPrint('❌ Stack trace: $stackTrace');
-                    return Container(
-                      color: Colors.grey[200],
-                      child: Center(
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Icon(
-                              Icons.image_not_supported_outlined,
-                              size: 60,
-                              color: Colors.grey[400],
-                            ),
-                            const SizedBox(height: 8),
-                            Text(
-                              'Image not found',
-                              style: TextStyle(
-                                color: Colors.grey[600],
-                                fontSize: 16,
-                              ),
-                            ),
-                            const SizedBox(height: 4),
-                            Text(
-                              imagePath,
-                              style: TextStyle(
-                                color: Colors.grey[500],
-                                fontSize: 12,
-                              ),
-                              textAlign: TextAlign.center,
-                            ),
-                          ],
-                        ),
-                      ),
-                    );
-                  },
                 ),
               ),
             ),

@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:page_flip/page_flip.dart';
 import '../theme/app_theme.dart';
+import '../widgets/cached_story_image.dart';
 
 class StorybookReaderScreen extends StatefulWidget {
   final int level;
@@ -210,20 +211,10 @@ class _StoryPage extends StatelessWidget {
                 ),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(16),
-                  child: Image.asset(
-                    pageData['image'],
+                  child: CachedStoryImage(
+                    imagePath: pageData['image'],
                     fit: BoxFit.contain, // Maintain aspect ratio
                     width: double.infinity,
-                    errorBuilder: (context, error, stackTrace) => Container(
-                      decoration: BoxDecoration(
-                        color: Colors.grey[200],
-                        borderRadius: BorderRadius.circular(16),
-                      ),
-                      child: const Center(
-                        child: Icon(Icons.image_not_supported,
-                            size: 48, color: Colors.grey),
-                      ),
-                    ),
                   ),
                 ),
               ),

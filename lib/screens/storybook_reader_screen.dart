@@ -9,6 +9,7 @@ import '../services/settings_service.dart';
 import '../services/orientation_service.dart';
 import '../services/tts_service.dart';
 import '../services/word_audio_service.dart';
+import '../services/image_cache_service.dart';
 import '../theme/app_theme.dart';
 
 class StorybookReaderScreen extends StatefulWidget {
@@ -89,6 +90,9 @@ class _StorybookReaderScreenState extends State<StorybookReaderScreen>
 
     // Initialize Word Audio service for word pronunciation
     _initializeWordAudio();
+
+    // Preload all images for this storybook
+    _preloadStoryImages();
   }
 
   /// Initialize Text-to-Speech service
@@ -108,6 +112,29 @@ class _StorybookReaderScreenState extends State<StorybookReaderScreen>
       debugPrint('🎵 Word Audio Service initialized for word pronunciation');
     } catch (e) {
       debugPrint('❌ Failed to initialize Word Audio Service: $e');
+    }
+  }
+
+  /// Preload all images for this storybook
+  Future<void> _preloadStoryImages() async {
+    try {
+      // Initialize image cache service
+      await ImageCacheService.initialize();
+
+      // Extract all image paths from the storybook
+      final imagePaths =
+          widget.storybook.pages.map((page) => page.imagePath).toList();
+
+      debugPrint(
+          '📚 Preloading ${imagePaths.length} images for storybook: ${widget.storybook.title}');
+
+      // Preload all images
+      await ImageCacheService.preloadBookImages(imagePaths);
+
+      debugPrint(
+          '✅ All images preloaded for storybook: ${widget.storybook.title}');
+    } catch (e) {
+      debugPrint('❌ Failed to preload images: $e');
     }
   }
 
