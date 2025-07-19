@@ -122,6 +122,10 @@ secrets.json
 *.pem
 *.crt
 *.key
+key.properties
+android/key.properties
+upload-keystore.jks
+decodable-reader-key.jks
 
 # Android specific
 *.iml
