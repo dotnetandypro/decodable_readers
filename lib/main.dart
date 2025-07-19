@@ -7,6 +7,7 @@ import 'theme/app_theme.dart';
 import 'services/settings_service.dart';
 import 'services/progress_service.dart';
 import 'services/image_cache_service.dart';
+import 'services/cover_image_cache_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,6 +20,9 @@ void main() async {
 
   // Initialize image cache service
   await ImageCacheService.initialize();
+
+  // Initialize cover image cache service
+  await CoverImageCacheService.initialize();
 
   runApp(const DecodableReaderApp());
 }

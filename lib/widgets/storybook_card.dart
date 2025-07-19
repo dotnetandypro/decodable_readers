@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../models/story_models.dart';
 import '../theme/app_theme.dart';
 import '../services/progress_service.dart';
+import '../services/cover_image_cache_service.dart';
+import '../widgets/cached_cover_image.dart';
 
 class StorybookCard extends StatefulWidget {
   final Storybook storybook;
@@ -63,45 +65,23 @@ class _StorybookCardState extends State<StorybookCard>
 
   /// Build the story image thumbnail
   Widget _buildStoryImage(Color levelColor) {
-    // Construct image path from storybook ID
-    // e.g., "level1_story1" -> "assets/images/level1/level1_story1.png"
-    final imagePath =
-        'assets/images/level${widget.storybook.levelId}/${widget.storybook.id}.png';
+    // Generate cover image path for remote loading
+    final imagePath = CoverImageCacheService.generateCoverImagePath(
+      widget.storybook.levelId,
+      widget.storybook.id,
+    );
 
     return Container(
       width: double.infinity,
       height: double.infinity,
       child: ClipRRect(
         borderRadius: BorderRadius.circular(8),
-        child: Image.asset(
-          imagePath,
+        child: CachedCoverImage(
+          imagePath: imagePath,
           fit: BoxFit.cover,
-          errorBuilder: (context, error, stackTrace) {
-            // Fallback to icon if image not found
-            return Container(
-              width: double.infinity,
-              height: double.infinity,
-              decoration: BoxDecoration(
-                color: levelColor.withOpacity(0.1),
-                borderRadius: BorderRadius.circular(8),
-              ),
-              child: Center(
-                child: Container(
-                  width: 60,
-                  height: 60,
-                  decoration: BoxDecoration(
-                    color: levelColor.withOpacity(0.2),
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                  child: Icon(
-                    Icons.menu_book_rounded,
-                    color: levelColor,
-                    size: 30,
-                  ),
-                ),
-              ),
-            );
-          },
+          fallbackColor: levelColor,
+          width: double.infinity,
+          height: double.infinity,
         ),
       ),
     );

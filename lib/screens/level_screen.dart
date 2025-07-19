@@ -4,8 +4,10 @@ import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 import '../models/story_models.dart';
 import '../theme/app_theme.dart';
 import '../widgets/storybook_card.dart';
+import '../widgets/cached_cover_image.dart';
 import '../services/orientation_service.dart';
 import '../services/progress_service.dart';
+import '../services/cover_image_cache_service.dart';
 import 'storybook_reader_screen.dart';
 
 class LevelScreen extends StatefulWidget {
@@ -26,6 +28,7 @@ class _LevelScreenState extends State<LevelScreen>
   void initState() {
     super.initState();
     _setupAnimations();
+    _preloadCoverImages();
   }
 
   void _setupAnimations() {
@@ -43,6 +46,32 @@ class _LevelScreenState extends State<LevelScreen>
     ));
 
     _headerAnimationController.forward();
+  }
+
+  /// Preload all cover images for this level
+  Future<void> _preloadCoverImages() async {
+    try {
+      // Initialize cover image cache service
+      await CoverImageCacheService.initialize();
+
+      // Generate cover image paths for all storybooks in this level
+      final coverImagePaths = widget.level.storybooks
+          .map((storybook) => CoverImageCacheService.generateCoverImagePath(
+                storybook.levelId,
+                storybook.id,
+              ))
+          .toList();
+
+      debugPrint(
+          '📚 Preloading ${coverImagePaths.length} cover images for ${widget.level.title}');
+
+      // Preload all cover images in background
+      CoverImageCacheService.preloadLevelCoverImages(coverImagePaths);
+
+      debugPrint('✅ Cover image preloading started for ${widget.level.title}');
+    } catch (e) {
+      debugPrint('❌ Failed to preload cover images: $e');
+    }
   }
 
   @override
