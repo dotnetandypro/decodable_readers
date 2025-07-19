@@ -1,0 +1,1807 @@
+{
+  "fontSettingsIphone": {
+    "level1": 24,
+    "level2": 22,
+    "level3": 20,
+    "level4": 18,
+    "level5": 16,
+    "level6": 15,
+    "level7": 14,
+    "level8": 13,
+    "level9": 12,
+    "level10": 11
+  },
+  "fontSettingsIpad": {
+    "level1": 34,
+    "level2": 32,
+    "level3": 30,
+    "level4": 28,
+    "level5": 26,
+    "level6": 25,
+    "level7": 24,
+    "level8": 23,
+    "level9": 22,
+    "level10": 21
+  },
+  "levels": [
+    {
+      "id": 1,
+      "title": "Level 1",
+      "storybooks": [
+        {
+          "id": "level1_story1",
+          "title": "Pip",
+          "pages": [
+            { "image": "assets/stories/level1/story1/page1.png", "text": "Level 1 Book 1. Pip!" },
+            { "image": "assets/stories/level1/story1/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level1/story1/page3.png", "text": "Pip sits." },
+            { "image": "assets/stories/level1/story1/page4.png", "text": "Sip it." },
+            { "image": "assets/stories/level1/story1/page5.png", "text": "Pat it." },
+            { "image": "assets/stories/level1/story1/page6.png", "text": "Pip naps." },
+            { "image": "assets/stories/level1/story1/page7.png", "text": "Spin it." },
+            { "image": "assets/stories/level1/story1/page8.png", "text": "Pip pats ants." },
+            { "image": "assets/stories/level1/story1/page9.png", "text": "A tin." },
+            { "image": "assets/stories/level1/story1/page10.png", "text": "The tin tips." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What does Pip do at the beginning of the story?",
+                "options": ["Runs", "Sits", "Jumps"],
+                "answer": "Sits"
+              },
+              {
+                "question": "What does Pip do to the ants?",
+                "options": ["Ignores them", "Pats them", "Steps on them"],
+                "answer": "Pats them"
+              },
+              {
+                "question": "What tips at the end of the story?",
+                "options": ["A bin", "A tin", "A cup"],
+                "answer": "A tin"
+              },
+              {
+                "question": "What does Pip do after patting it?",
+                "options": ["Naps", "Spins", "Sits"],
+                "answer": "Naps"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level1_story2",
+          "title": "Pat",
+          "pages": [
+            { "image": "assets/stories/level1/story2/page1.png", "text": "Level 1 Book 2. Pat!" },
+            { "image": "assets/stories/level1/story2/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level1/story2/page3.png", "text": "A tap." },
+            { "image": "assets/stories/level1/story2/page4.png", "text": "A tin." },
+            { "image": "assets/stories/level1/story2/page5.png", "text": "A tin at the tap." },
+            { "image": "assets/stories/level1/story2/page6.png", "text": "Pat spins the tap." },
+            { "image": "assets/stories/level1/story2/page7.png", "text": "Pat tips." },
+            { "image": "assets/stories/level1/story2/page8.png", "text": "Pat snips." },
+            { "image": "assets/stories/level1/story2/page9.png", "text": "Pat naps." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What does Pat see first?",
+                "options": ["A tin", "A tap", "A cup"],
+                "answer": "A tap"
+              },
+              {
+                "question": "Where is the tin placed?",
+                "options": ["At the table", "At the tap", "On the mat"],
+                "answer": "At the tap"
+              },
+              {
+                "question": "What does Pat do to the tap?",
+                "options": ["Snips it", "Tips it", "Spins it"],
+                "answer": "Spins it"
+              },
+              {
+                "question": "What does Pat snip?",
+                "options": ["A leaf", "The tap", "It's not said"],
+                "answer": "It's not said"
+              },
+              {
+                "question": "What does Pat do at the end?",
+                "options": ["Naps", "Runs", "Sits"],
+                "answer": "Naps"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level1_story3",
+          "title": "Nip",
+          "pages": [
+            { "image": "assets/stories/level1/story3/page1.png", "text": "Level 1 Book 3. Nip!" },
+            { "image": "assets/stories/level1/story3/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level1/story3/page3.png", "text": "Pip and Nip." },
+            { "image": "assets/stories/level1/story3/page4.png", "text": "Nip sits." },
+            { "image": "assets/stories/level1/story3/page5.png", "text": "Pip taps Nip." },
+            { "image": "assets/stories/level1/story3/page6.png", "text": "Nip tips Pip." },
+            { "image": "assets/stories/level1/story3/page7.png", "text": "Pip sits." },
+            { "image": "assets/stories/level1/story3/page8.png", "text": "Pip snaps." },
+            { "image": "assets/stories/level1/story3/page9.png", "text": "Sip, sip, sip." },
+            { "image": "assets/stories/level1/story3/page10.png", "text": "Pip and Nip sit and sip." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "Who are the two characters in the story?",
+                "options": ["Pip and Pat", "Pip and Nip", "Nip and Nat"],
+                "answer": "Pip and Nip"
+              },
+              {
+                "question": "What does Nip do at the beginning?",
+                "options": ["Tips", "Sits", "Snaps"],
+                "answer": "Sits"
+              },
+              {
+                "question": "What does Pip do to Nip?",
+                "options": ["Taps him", "Tips him", "Sips with him"],
+                "answer": "Taps him"
+              },
+              {
+                "question": "What do Pip and Nip do at the end?",
+                "options": ["Sit and sip", "Run and jump", "Snip and tip"],
+                "answer": "Sit and sip"
+              },
+              {
+                "question": "What sound is repeated at the end?",
+                "options": ["Tap, tap, tap", "Sip, sip, sip", "Sit, sit, sit"],
+                "answer": "Sip, sip, sip"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level1_story4",
+          "title": "Ants and nits",
+          "pages": [
+            { "image": "assets/stories/level1/story4/page1.png", "text": "Level 1 Book 4. Ants and nits!" },
+            { "image": "assets/stories/level1/story4/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level1/story4/page3.png", "text": "Ants." },
+            { "image": "assets/stories/level1/story4/page4.png", "text": "A tin of ants." },
+            { "image": "assets/stories/level1/story4/page5.png", "text": "Ants in pants." },
+            { "image": "assets/stories/level1/story4/page6.png", "text": "Ants in a pan." },
+            { "image": "assets/stories/level1/story4/page7.png", "text": "The nits." },
+            { "image": "assets/stories/level1/story4/page8.png", "text": "A nit sits." },
+            { "image": "assets/stories/level1/story4/page9.png", "text": "A pit of nits." },
+            { "image": "assets/stories/level1/story4/page10.png", "text": "A nit and an ant sit." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What is in the tin?",
+                "options": ["Nits", "Water", "Ants"],
+                "answer": "Ants"
+              },
+              {
+                "question": "Where are the ants in the story?",
+                "options": ["In a cup", "In pants and a pan", "On a mat"],
+                "answer": "In pants and a pan"
+              },
+              {
+                "question": "What sits in the story?",
+                "options": ["A nit", "An ant", "A tin"],
+                "answer": "A nit"
+              },
+              {
+                "question": "Where are the nits found?",
+                "options": ["In a pan", "In a pit", "In pants"],
+                "answer": "In a pit"
+              },
+              {
+                "question": "Who sits together at the end?",
+                "options": ["Two ants", "A nit and an ant", "Two nits"],
+                "answer": "A nit and an ant"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level1_story5",
+          "title": "Tan Tan",
+          "pages": [
+            { "image": "assets/stories/level1/story5/page1.png", "text": "Level 1 Book 5. Tan Tan!" },
+            { "image": "assets/stories/level1/story5/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level1/story5/page3.png", "text": "It is Tan Tan." },
+            { "image": "assets/stories/level1/story5/page4.png", "text": "Tan Tan is in pants." },
+            { "image": "assets/stories/level1/story5/page5.png", "text": "An ant and Tan Tan." },
+            { "image": "assets/stories/level1/story5/page6.png", "text": "Tan Tan and the ant spin." },
+            { "image": "assets/stories/level1/story5/page7.png", "text": "Tan Tan tip it." },
+            { "image": "assets/stories/level1/story5/page8.png", "text": "To the pit, Tan Tan!" },
+            { "image": "assets/stories/level1/story5/page9.png", "text": "Tan Tan is in the Pit." },
+            { "image": "assets/stories/level1/story5/page10.png", "text": "Tan Tan naps." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "Who is the story about?",
+                "options": ["Pip", "Tan Tan", "Nip"],
+                "answer": "Tan Tan"
+              },
+              {
+                "question": "What is Tan Tan in?",
+                "options": ["A pan", "Pants", "A tin"],
+                "answer": "Pants"
+              },
+              {
+                "question": "Who does Tan Tan spin with?",
+                "options": ["A nit", "An ant", "Pip"],
+                "answer": "An ant"
+              },
+              {
+                "question": "Where does Tan Tan go?",
+                "options": ["To the tin", "To the pit", "To the mat"],
+                "answer": "To the pit"
+              },
+              {
+                "question": "What does Tan Tan do at the end?",
+                "options": ["Tips it", "Naps", "Sips"],
+                "answer": "Naps"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level1_story6",
+          "title": "Nat",
+          "pages": [
+            { "image": "assets/stories/level1/story6/page1.png", "text": "Level 1 Book 6. Nat!" },
+            { "image": "assets/stories/level1/story6/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level1/story6/page3.png", "text": "Pip, Pat, Tan Tan and Nat." },
+            { "image": "assets/stories/level1/story6/page4.png", "text": "Pat, you spin it." },
+            { "image": "assets/stories/level1/story6/page5.png", "text": "Pip, you spin!" },
+            { "image": "assets/stories/level1/story6/page6.png", "text": "Tan Tan, you tap it!" },
+            { "image": "assets/stories/level1/story6/page7.png", "text": "Is that you, Pat?" },
+            { "image": "assets/stories/level1/story6/page8.png", "text": "It is you, Pat!" },
+            { "image": "assets/stories/level1/story6/page9.png", "text": "Is that you, Pip?" },
+            { "image": "assets/stories/level1/story6/page10.png", "text": "It is you, Pip!" }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "Who is in the story?",
+                "options": ["Pip, Nat, and Nip", "Pip, Pat, Tan Tan and Nat", "Pat, Tan Tan and Nip"],
+                "answer": "Pip, Pat, Tan Tan and Nat"
+              },
+              {
+                "question": "What does Pat do?",
+                "options": ["Tips it", "Spins it", "Sips it"],
+                "answer": "Spins it"
+              },
+              {
+                "question": "Who is told to tap it?",
+                "options": ["Pip", "Nat", "Tan Tan"],
+                "answer": "Tan Tan"
+              },
+              {
+                "question": "What question is asked about Pat?",
+                "options": ["Is that you, Pat?", "Is Pat in the tin?", "Can Pat tap it?"],
+                "answer": "Is that you, Pat?"
+              },
+              {
+                "question": "What is the answer to 'Is that you, Pip?'",
+                "options": ["No, it is Pat!", "It is you, Pip!", "That is Nat!"],
+                "answer": "It is you, Pip!"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level1_story7",
+          "title": "It is for you",
+          "pages": [
+            { "image": "assets/stories/level1/story7/page1.png", "text": "Level 1 Book 7. It is for you!" },
+            { "image": "assets/stories/level1/story7/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level1/story7/page3.png", "text": "Is it for me, Pat?" },
+            { "image": "assets/stories/level1/story7/page4.png", "text": "This is for you." },
+            { "image": "assets/stories/level1/story7/page5.png", "text": "Pip sits and sips." },
+            { "image": "assets/stories/level1/story7/page6.png", "text": "Pat sits and he spits pips." },
+            { "image": "assets/stories/level1/story7/page7.png", "text": "Is that an ant, Pip?" },
+            { "image": "assets/stories/level1/story7/page8.png", "text": "No, it is a nit." },
+            { "image": "assets/stories/level1/story7/page9.png", "text": "Pat, Pip and a nit in the pit." },
+            { "image": "assets/stories/level1/story7/page10.png", "text": "A tin for the nits." },
+            { "image": "assets/stories/level1/story7/page11.png", "text": "It is a tin of nits for you." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "Who asks, 'Is it for me?'",
+                "options": ["Pip", "Nat", "Pat"],
+                "answer": "Pat"
+              },
+              {
+                "question": "What does Pip do?",
+                "options": ["Sits and sips", "Tips and taps", "Runs and naps"],
+                "answer": "Sits and sips"
+              },
+              {
+                "question": "What does Pat do with the pips?",
+                "options": ["Saves them", "Spits them", "Snips them"],
+                "answer": "Spits them"
+              },
+              {
+                "question": "What does Pip say the bug is?",
+                "options": ["An ant", "A nit", "A pit"],
+                "answer": "A nit"
+              },
+              {
+                "question": "What is in the tin at the end?",
+                "options": ["Ants", "Pips", "Nits"],
+                "answer": "Nits"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level1_story8",
+          "title": "He is Stan",
+          "pages": [
+            { "image": "assets/stories/level1/story8/page1.png", "text": "Level 1 Book 8. He is Stan!" },
+            { "image": "assets/stories/level1/story8/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level1/story8/page3.png", "text": "He is Stan and he is Tin Tin." },
+            { "image": "assets/stories/level1/story8/page4.png", "text": "Was that Stan and Tin Tin." },
+            { "image": "assets/stories/level1/story8/page5.png", "text": "Was it Nip?" },
+            { "image": "assets/stories/level1/story8/page6.png", "text": "It was Stan, Tin Tin and Nip!" },
+            { "image": "assets/stories/level1/story8/page7.png", "text": "Stan is in the pit." },
+            { "image": "assets/stories/level1/story8/page8.png", "text": "Tin Tin is in the pit." },
+            { "image": "assets/stories/level1/story8/page9.png", "text": "Was Stan in the pit?" },
+            { "image": "assets/stories/level1/story8/page10.png", "text": "He is at the tap and he spins the tap." },
+            { "image": "assets/stories/level1/story8/page11.png", "text": "It is for you, Stan!" }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "Who is Stan with?",
+                "options": ["Pip", "Tin Tin", "Nat"],
+                "answer": "Tin Tin"
+              },
+              {
+                "question": "Who else was with Stan and Tin Tin?",
+                "options": ["Pat", "Nip", "Pip"],
+                "answer": "Nip"
+              },
+              {
+                "question": "Where is Stan?",
+                "options": ["In the pit", "At the tap", "On the mat"],
+                "answer": "In the pit"
+              },
+              {
+                "question": "What does Stan do at the tap?",
+                "options": ["Tips the tin", "Spins the tap", "Sips it"],
+                "answer": "Spins the tap"
+              },
+              {
+                "question": "What do they say at the end?",
+                "options": ["It is for you, Tin Tin!", "It is for you, Stan!", "It is for you, Nip!"],
+                "answer": "It is for you, Stan!"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level1_story9",
+          "title": "On it",
+          "pages": [
+            { "image": "assets/stories/level1/story9/page1.png", "text": "Level 1 Book 9. On it!" },
+            { "image": "assets/stories/level1/story9/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level1/story9/page3.png", "text": "A nit sits on Nip. Tap it, Nip!" },
+            { "image": "assets/stories/level1/story9/page4.png", "text": "It sits on the tin. Nip tips it." },
+            { "image": "assets/stories/level1/story9/page5.png", "text": "Pin it Nip, pin it on." },
+            { "image": "assets/stories/level1/story9/page6.png", "text": "Pat and Stan sit on it. Nip taps it." },
+            { "image": "assets/stories/level1/story9/page7.png", "text": "An ant is in the pit. It is on Nip." },
+            { "image": "assets/stories/level1/story9/page8.png", "text": "Pip and Nip sit and spin on it." },
+            { "image": "assets/stories/level1/story9/page9.png", "text": "Pat and Stan spin it." },
+            { "image": "assets/stories/level1/story9/page10.png", "text": "It spins on the tin and he tips it." },
+            { "image": "assets/stories/level1/story9/page11.png", "text": "Pit, Pat, Stan and Nip sit and sip." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What sits on Nip?",
+                "options": ["An ant", "A nit", "A pip"],
+                "answer": "A nit"
+              },
+              {
+                "question": "Where does the nit sit after Nip taps it?",
+                "options": ["On the tin", "On a pit", "On Stan"],
+                "answer": "On the tin"
+              },
+              {
+                "question": "Who sits on it with Stan?",
+                "options": ["Pat", "Nip", "Pip"],
+                "answer": "Pat"
+              },
+              {
+                "question": "Who taps it after sitting?",
+                "options": ["Stan", "Nip", "Pip"],
+                "answer": "Nip"
+              },
+              {
+                "question": "Who sits and sips at the end?",
+                "options": ["Nip and Pip", "Stan and Pip", "Pat, Stan, Nip and Pip"],
+                "answer": "Pat, Stan, Nip and Pip"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level1_story10",
+          "title": "Snap. Snip.",
+          "pages": [
+            { "image": "assets/stories/level1/story10/page1.png", "text": "Level 1 Book 10. Snap. Snip." },
+            { "image": "assets/stories/level1/story10/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level1/story10/page3.png", "text": "Pip and Nip snip it." },
+            { "image": "assets/stories/level1/story10/page4.png", "text": "Pip is with Nip at the tap. Nip spins it." },
+            { "image": "assets/stories/level1/story10/page5.png", "text": "Pip snips and Nip tips it." },
+            { "image": "assets/stories/level1/story10/page6.png", "text": "Pip and Nip are at the pit." },
+            { "image": "assets/stories/level1/story10/page7.png", "text": "Nip is with Stan at the pit, Pip sit with Tan Tan and Pat snaps it." },
+            { "image": "assets/stories/level1/story10/page8.png", "text": "Pat is in the snap with Pip, Stan and Tan Tan. Nip snaps it." },
+            { "image": "assets/stories/level1/story10/page9.png", "text": "It tips! Nip sits." },
+            { "image": "assets/stories/level1/story10/page10.png", "text": "It is for you Nip. To the pit, Nip!" },
+            { "image": "assets/stories/level1/story10/page11.png", "text": "Nip is in the snap with Pip, Stan, Tan Tan and Pat." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "Who snips it with Nip?",
+                "options": ["Pat", "Pip", "Stan"],
+                "answer": "Pip"
+              },
+              {
+                "question": "What does Nip do at the tap?",
+                "options": ["Snaps it", "Tips it", "Spins it"],
+                "answer": "Spins it"
+              },
+              {
+                "question": "Who snaps it after Pip sits with Tan Tan?",
+                "options": ["Stan", "Pat", "Nip"],
+                "answer": "Pat"
+              },
+              {
+                "question": "What happens after Nip snaps it?",
+                "options": ["It spins", "It tips", "It sips"],
+                "answer": "It tips"
+              },
+              {
+                "question": "Who is in the snap at the end with Nip?",
+                "options": ["Pip, Stan, Tan Tan and Pat", "Just Pip", "Pip and Tan Tan only"],
+                "answer": "Pip, Stan, Tan Tan and Pat"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Level 2",
+      "storybooks": [
+        {
+          "id": "level2_story1",
+          "title": "Pat’s Cap",
+          "pages": [
+            { "image": "assets/stories/level2/story1/page1.png", "text": "Level 2 Book 1. Pat’s Cap!" },
+            { "image": "assets/stories/level2/story1/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level2/story1/page3.png", "text": "Pat has a red cap. He taps on it." },
+            { "image": "assets/stories/level2/story1/page4.png", "text": "Pip sits by Pat. She points to the cap." },
+            { "image": "assets/stories/level2/story1/page5.png", "text": "'It is a big cap,' said Pip. Pat nods." },
+            { "image": "assets/stories/level2/story1/page6.png", "text": "Stan picks up the cap. He puts it on Pat’s head." },
+            { "image": "assets/stories/level2/story1/page7.png", "text": "'It is for you, Pat,' said Stan. Pat grins." },
+            { "image": "assets/stories/level2/story1/page8.png", "text": "Pip claps for Pat and his cap. Pat pats the cap." },
+            { "image": "assets/stories/level2/story1/page9.png", "text": "Nip runs to see the cap. He sits with Pat." },
+            { "image": "assets/stories/level2/story1/page10.png", "text": "Pat takes off the cap. He hands it to Nip." },
+            { "image": "assets/stories/level2/story1/page11.png", "text": "'It is a nice cap,' said Pat. Nip nods." },
+            { "image": "assets/stories/level2/story1/page12.png", "text": "They sit and chat by the cap. It is a fun day." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What color is Pat’s cap?",
+                "options": ["Red", "Blue", "Green"],
+                "answer": "Red"
+              },
+              {
+                "question": "Who points to Pat’s cap?",
+                "options": ["Nip", "Pip", "Stan"],
+                "answer": "Pip"
+              },
+              {
+                "question": "Who puts the cap on Pat’s head?",
+                "options": ["Stan", "Pip", "Nip"],
+                "answer": "Stan"
+              },
+              {
+                "question": "Who does Pat give the cap to?",
+                "options": ["Stan", "Nip", "Pip"],
+                "answer": "Nip"
+              },
+              {
+                "question": "What do they do at the end of the story?",
+                "options": ["Run and hide", "Sit and chat", "Jump and play"],
+                "answer": "Sit and chat"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level2_story2",
+          "title": "Nip and the Ant Nest",
+          "pages": [
+            { "image": "assets/stories/level2/story2/page1.png", "text": "Level 2 Book 2. Nip and the Ant Nest!" },
+            { "image": "assets/stories/level2/story2/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level2/story2/page3.png", "text": "Nip sat on the red sand. Ants ran near a nest." },
+            { "image": "assets/stories/level2/story2/page4.png", "text": "'Can I get the nest?' said Nip. 'No, Nip, STOP!' said Pip." },
+            { "image": "assets/stories/level2/story2/page5.png", "text": "Nip hit the nest with a stick. Ants ran at Nip. 'Drat!' said Nip." },
+            { "image": "assets/stories/level2/story2/page6.png", "text": "Pip got a cup. Drip, drip went the water on Nip’s hand." },
+            { "image": "assets/stories/level2/story2/page7.png", "text": "'Ants are pests,' said Nip. Pip said, 'Ants get nuts and seeds." },
+            { "image": "assets/stories/level2/story2/page8.png", "text": "Nip sat on the sand. Ants ran back to the nest." },
+            { "image": "assets/stories/level2/story2/page9.png", "text": "The sun was red at the end of the day." },
+            { "image": "assets/stories/level2/story2/page10.png", "text": "Pip and Nip went to the tent." },
+            { "image": "assets/stories/level2/story2/page11.png", "text": "They sat by the tent. Nip said, 'Ants are not bad.'" }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "Where did Nip sit?",
+                "options": ["On the mat", "On the red sand", "By the nest"],
+                "answer": "On the red sand"
+              },
+              {
+                "question": "What did Nip use to hit the nest?",
+                "options": ["His foot", "A rock", "A stick"],
+                "answer": "A stick"
+              },
+              {
+                "question": "What did Pip use to help Nip?",
+                "options": ["A fan", "A cloth", "A cup of water"],
+                "answer": "A cup of water"
+              },
+              {
+                "question": "What do ants get, according to Pip?",
+                "options": ["Food and bugs", "Nuts and seeds", "Water and sugar"],
+                "answer": "Nuts and seeds"
+              },
+              {
+                "question": "What did Nip say at the end?",
+                "options": ["Ants are pests", "Ants are bad", "Ants are not bad"],
+                "answer": "Ants are not bad"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level2_story3",
+          "title": "Picnic with Tid",
+          "pages": [
+            { "image": "assets/stories/level2/story3/page1.png", "text": "Level 2 Book 3. Picnic with Tid!" },
+            { "image": "assets/stories/level2/story3/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level2/story3/page3.png", "text": "Pip and Pat set up a picnic by the pond. They put a red rug on the sand." },
+            { "image": "assets/stories/level2/story3/page4.png", "text": "A pot with snacks and mugs for drinks is on the rug. Tid, the dog, run to the rug." },
+            { "image": "assets/stories/level2/story3/page5.png", "text": "Pat picks a stick from the sand. He drops it in the pond for Tid." },
+            { "image": "assets/stories/level2/story3/page6.png", "text": "Pip takes nuts from a tin and set them on the rug. Tid steps into the pond to get the stick." },
+            { "image": "assets/stories/level2/story3/page7.png", "text": "Tid taps the stick and get to the kids." },
+            { "image": "assets/stories/level2/story3/page8.png", "text": "Tid drops the stick. Pip claps. Pat grins and taps his head." },
+            { "image": "assets/stories/level2/story3/page9.png", "text": "Pat hands to Tid a snack from the pot. Tid sits by the rug with the stick." },
+            { "image": "assets/stories/level2/story3/page10.png", "text": "They get to the sand by the pond. Pat and Tid stomp, Pip taps the pot as a drum." },
+            { "image": "assets/stories/level2/story3/page11.png", "text": "After the fun, kids have snacks and sip drinks at the rug." },
+            { "image": "assets/stories/level2/story3/page12.png", "text": "'It was the best picnic', said Pip. They stack the pot and mugs in the sack and trek to the tent." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "Where do Pip and Pat set up the picnic?",
+                "options": ["In the tent", "By the pond", "On the hill"],
+                "answer": "By the pond"
+              },
+              {
+                "question": "What does Pat throw into the pond for Tid?",
+                "options": ["A snack", "A rug", "A stick"],
+                "answer": "A stick"
+              },
+              {
+                "question": "What does Pip take from the tin?",
+                "options": ["Snacks", "Nuts", "Mugs"],
+                "answer": "Nuts"
+              },
+              {
+                "question": "What does Pip do when Tid brings back the stick?",
+                "options": ["Claps", "Runs", "Spins"],
+                "answer": "Claps"
+              },
+              {
+                "question": "What do they do at the end of the picnic?",
+                "options": ["Take a nap", "Trek to the tent", "Go for a swim"],
+                "answer": "Trek to the tent"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level2_story4",
+          "title": "Mini dragon",
+          "pages": [
+            { "image": "assets/stories/level2/story4/page1.png", "text": "Level 2 Book 4. Mini dragon!" },
+            { "image": "assets/stories/level2/story4/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level2/story4/page3.png", "text": "Pip and Pat step on the track with a map in hand. Pat has a sack, and Pip taps the sand with a stick." },
+            { "image": "assets/stories/level2/story4/page4.png", "text": "A red rock with specks of mud sits by the track. 'What is that rock?' asks Pat." },
+            { "image": "assets/stories/level2/story4/page5.png", "text": "Pip taps the rock with her stick. The rock cracks with a rip on top." },
+            { "image": "assets/stories/level2/story4/page6.png", "text": "A mini dragon pops out of the cracked rock. 'Drat! It’s a dragon!' says Pip." },
+            { "image": "assets/stories/level2/story4/page7.png", "text": "The dragon is damp and stomps on the sand." },
+            { "image": "assets/stories/level2/story4/page8.png", "text": "It spins and sticks to Pat. 'It likes you!' says Pip." },
+            { "image": "assets/stories/level2/story4/page9.png", "text": "The dragon taps Pat’s sack and inspects the snacks. 'What do we name it?' asks Pip." },
+            { "image": "assets/stories/level2/story4/page10.png", "text": "'We name it Dom' says Pat. Pip sets a snack on the rock, and Dom steps to it." },
+            { "image": "assets/stories/level2/story4/page11.png", "text": "Dom stomps and spins by them. Mud drips as it romps on the track." },
+            { "image": "assets/stories/level2/story4/page12.png", "text": "Pip and Pat grin as they pack their sack. 'Dom, you go with us!' says Pip." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What are Pip and Pat holding when they step on the track?",
+                "options": ["A tin and a cup", "A map and a sack", "A stick and a snack"],
+                "answer": "A map and a sack"
+              },
+              {
+                "question": "What cracks open on the track?",
+                "options": ["A tin", "A rock", "A nut"],
+                "answer": "A rock"
+              },
+              {
+                "question": "What comes out of the cracked rock?",
+                "options": ["A frog", "A dragon", "A lizard"],
+                "answer": "A dragon"
+              },
+              {
+                "question": "What name do they give to the dragon?",
+                "options": ["Drip", "Dom", "Dip"],
+                "answer": "Dom"
+              },
+              {
+                "question": "What do Pip and Pat say at the end?",
+                "options": ["Bye, dragon!", "Stay here, Dom!", "Dom, you go with us!"],
+                "answer": "Dom, you go with us!"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level2_story5",
+          "title": "Stan’s rocket",
+          "pages": [
+            { "image": "assets/stories/level2/story5/page1.png", "text": "Level 2 Book 5. Stan’s rocket!" },
+            { "image": "assets/stories/level2/story5/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level2/story5/page3.png", "text": "Stan stands by the track with his red rocket. Pip and Pat sit on a mat." },
+            { "image": "assets/stories/level2/story5/page4.png", "text": "'This rocket can go up!' says Stan. He sets it on the ramp and tips it to run." },
+            { "image": "assets/stories/level2/story5/page5.png", "text": "The rocket runs but stops in the mud. 'Drat! It’s stuck!' says Stan." },
+            { "image": "assets/stories/level2/story5/page6.png", "text": "Stan gets it from the mud and taps it with his hand. 'Set it again!' says Pat." },
+            { "image": "assets/stories/level2/story5/page7.png", "text": "On the next set, the rocket spins on the sand. 'It is fun!' says Pip." },
+            { "image": "assets/stories/level2/story5/page8.png", "text": "Stan spins the red head and set it to the ramp again." },
+            { "image": "assets/stories/level2/story5/page9.png", "text": "It hits a rock and cracks. The kids run to the rocket. 'It’s cracked,' says Pip." },
+            { "image": "assets/stories/level2/story5/page10.png", "text": "'We go to Nick, he can help' said Pat. They go to Nick’s desk." },
+            { "image": "assets/stories/level2/story5/page11.png", "text": "Nick inspects the rocket, taps it with a stick, and grins. 'It can work again,' he says." },
+            { "image": "assets/stories/level2/story5/page12.png", "text": "Stan sets the rocket on the ramp again. This time, It can go up, but it hangs in a tree." },
+            { "image": "assets/stories/level2/story5/page13.png", "text": "Pip get a stick. Stan and Pat tap the tree." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What does Stan have with him?",
+                "options": ["A red cap", "A map", "A red rocket"],
+                "answer": "A red rocket"
+              },
+              {
+                "question": "What happens when Stan sets the rocket the first time?",
+                "options": ["It spins", "It gets stuck in the mud", "It flies high"],
+                "answer": "It gets stuck in the mud"
+              },
+              {
+                "question": "What does the rocket hit and crack on?",
+                "options": ["A stick", "A rock", "A ramp"],
+                "answer": "A rock"
+              },
+              {
+                "question": "Who helps fix the rocket?",
+                "options": ["Pat", "Nick", "Pip"],
+                "answer": "Nick"
+              },
+              {
+                "question": "Where does the rocket end up at the end?",
+                "options": ["In the mud", "In a box", "In a tree"],
+                "answer": "In a tree"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level2_story6",
+          "title": "The test day",
+          "pages": [
+            { "image": "assets/stories/level2/story6/page1.png", "text": "Level 2 Book 6. The test day!" },
+            { "image": "assets/stories/level2/story6/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level2/story6/page3.png", "text": "Today, Pip and Pat have a test. They sit at a desk and get the test from Tom. Tick, tock. Tick, tock." },
+            { "image": "assets/stories/level2/story6/page4.png", "text": "A cricket hops to Pip’s desk. It runs and stops on the test." },
+            { "image": "assets/stories/level2/story6/page5.png", "text": "Pip tips it with the pen. The insect hops out of the test." },
+            { "image": "assets/stories/level2/story6/page6.png", "text": "The words on the test stun Pat. He taps the desk with his pen. Tap, tap, tap. Pat’s pen drips ink on his test." },
+            { "image": "assets/stories/level2/story6/page7.png", "text": "Tick, tock. Tick, tock. ’Stop the test and drop the pens’, says Tom. He taps the desk." },
+            { "image": "assets/stories/level2/story6/page8.png", "text": "Pat’s neck drips when Tom pick up the tests." },
+            { "image": "assets/stories/level2/story6/page9.png", "text": "Tom goes to his desk. He sits, sips his drink and pick up a red pen." },
+            { "image": "assets/stories/level2/story6/page10.png", "text": "The pen is on the test. Tom grins. ’Tick, tick, tick’." },
+            { "image": "assets/stories/level2/story6/page11.png", "text": "‘Pat, you got ten!’ Pat hops up. ‘Pip, you got ten!’ Pip grins. Tom drops the pen on the desk and grins. ’Ten for all!’" },
+            { "image": "assets/stories/level2/story6/page12.png", "text": "‘Ding, ding, ding’. ‘Go to the tram! It is 3pm’ says Pip. Pat nods and pack his sack." },
+            { "image": "assets/stories/level2/story6/page13.png", "text": "Kids say goodbye to Tom and run to the tram to go home. " }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "Who gives Pip and Pat the test?",
+                "options": ["Tom", "Nick", "Stan"],
+                "answer": "Tom"
+              },
+              {
+                "question": "What lands on Pip’s desk during the test?",
+                "options": ["A bird", "A cricket", "A leaf"],
+                "answer": "A cricket"
+              },
+              {
+                "question": "What happens when Pat taps the desk with his pen?",
+                "options": ["The desk breaks", "The test flies away", "Ink drips on his test"],
+                "answer": "Ink drips on his test"
+              },
+              {
+                "question": "What score do Pat and Pip get?",
+                "options": ["Nine", "Ten", "Eight"],
+                "answer": "Ten"
+              },
+              {
+                "question": "Where do the kids go after the test?",
+                "options": ["To lunch", "To the tram", "Back to class"],
+                "answer": "To the tram"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level2_story7",
+          "title": "The tram trip",
+          "pages": [
+            { "image": "assets/stories/level2/story7/page1.png", "text": "Level 2 Book 7. The tram trip!" },
+            { "image": "assets/stories/level2/story7/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level2/story7/page3.png", "text": "Pip and Pat go to the tram stop. A tram comes to the stop." },
+            { "image": "assets/stories/level2/story7/page4.png", "text": "Pip drops a can on the tram track. Pat picks it up and runs back to their stand." },
+            { "image": "assets/stories/level2/story7/page5.png", "text": "The tram stops. Pip and Pat step onto the tram." },
+            { "image": "assets/stories/level2/story7/page6.png", "text": "A man with a pink cap and a huge tan sack steps onto the tram. His sack gets stuck." },
+            { "image": "assets/stories/level2/story7/page7.png", "text": "Pat tugs the tan sack and gets the man in. ’Nice, Pat’ says Pip as she nods." },
+            { "image": "assets/stories/level2/story7/page8.png", "text": "The man sits and rests. He grins and says, 'Thank you,' to Pat." },
+            { "image": "assets/stories/level2/story7/page9.png", "text": "Pat taps his pocket and gets a snack. Pip prods the red pack on the rack." },
+            { "image": "assets/stories/level2/story7/page10.png", "text": "‘Sit or stand, Pat?’ asks Pip. Pat stands, and Pip gets a seat." },
+            { "image": "assets/stories/level2/story7/page11.png", "text": "The ticket man steps up to them. ’Ticket?’ he asks." },
+            { "image": "assets/stories/level2/story7/page12.png", "text": "The ticket man gets the tickets, checks them and nods." },
+            { "image": "assets/stories/level2/story7/page13.png", "text": "The tram stops at the kids' home. Pip and Pat step out and say goodbye." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "Where are Pip and Pat going at the start?",
+                "options": ["To the park", "To school", "To the tram stop"],
+                "answer": "To the tram stop"
+              },
+              {
+                "question": "What does Pip drop on the tram track?",
+                "options": ["A snack", "A ticket", "A can"],
+                "answer": "A can"
+              },
+              {
+                "question": "What happens to the man's tan sack?",
+                "options": ["It tips over", "It gets stuck", "It is lost"],
+                "answer": "It gets stuck"
+              },
+              {
+                "question": "Who checks their tickets?",
+                "options": ["The tram driver", "The ticket man", "The man with the sack"],
+                "answer": "The ticket man"
+              },
+              {
+                "question": "Where does the tram stop at the end?",
+                "options": ["At the shop", "At school", "At the kids' home"],
+                "answer": "At the kids' home"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level2_story8",
+          "title": "The Trumpet",
+          "pages": [
+            { "image": "assets/stories/level2/story8/page1.png", "text": "Level 2 Book 8. The trumpet!" },
+            { "image": "assets/stories/level2/story8/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level2/story8/page3.png", "text": "Nip picks up a trumpet and spins it. ‘What is this? Is it a tin? Is it a can?’ Nip taps it." },
+            { "image": "assets/stories/level2/story8/page4.png", "text": "Stan steps up to Nip. ‘That is not a tin. Or a can.’ Stan taps the trumpet. ’That is a trumpet, Nip.’ Nip nods." },
+            { "image": "assets/stories/level2/story8/page5.png", "text": "‘Can I have the trumpet, Nip? ‘ Stan grins. Nip nods at Stan. Stan pats Nip." },
+            { "image": "assets/stories/level2/story8/page6.png", "text": "Stan gets the trumpet from Nip. Stan inspects the trumpet!" },
+            { "image": "assets/stories/level2/story8/page7.png", "text": "‘One word, Stan! STOP!’ Nip snaps. Nip gets mad. Stan stops." },
+            { "image": "assets/stories/level2/story8/page8.png", "text": "‘What a ruckus! What a din!’ Nip stomps." },
+            { "image": "assets/stories/level2/story8/page9.png", "text": "Stan is sad. He drop the trumpet. ’This is what a trumpet is, Nip.’ Stan’s neck drops." },
+            { "image": "assets/stories/level2/story8/page10.png", "text": "Nip is sad. Nip picks up the trumpet and inspects it. ’Stan, you must mend the crack in the trumpet.’" }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What does Nip pick up at the start?",
+                "options": ["A can", "A trumpet", "A tin"],
+                "answer": "A trumpet"
+              },
+              {
+                "question": "Who tells Nip it is a trumpet?",
+                "options": ["Pip", "Stan", "Pat"],
+                "answer": "Stan"
+              },
+              {
+                "question": "How does Nip feel when Stan plays the trumpet?",
+                "options": ["Mad", "Glad", "Sad"],
+                "answer": "Mad"
+              },
+              {
+                "question": "What happens after Stan stops playing?",
+                "options": ["He drops the trumpet", "He gives it to Pip", "He spins it"],
+                "answer": "He drops the trumpet"
+              },
+              {
+                "question": "What does Nip ask Stan to do?",
+                "options": ["Give the trumpet away", "Play more music", "Mend the crack in the trumpet"],
+                "answer": "Mend the crack in the trumpet"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level2_story9",
+          "title": "At the dump",
+          "pages": [
+            { "image": "assets/stories/level2/story9/page1.png", "text": "Level 2 Book 9. At the dump!" },
+            { "image": "assets/stories/level2/story9/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level2/story9/page3.png", "text": "Dom the dragon is at the dump with Nick. ‘This is the tip, Dom.’ Nick grins." },
+            { "image": "assets/stories/level2/story9/page4.png", "text": "‘Is it not the dump?’ Dom tips his neck. Nick grins. ’The tip is the dump.’" },
+            { "image": "assets/stories/level2/story9/page5.png", "text": "‘The dump stinks!’ Dom grins and runs to a tent with a rip. He picks up the tent. ‘A rat’s nest!’" },
+            { "image": "assets/stories/level2/story9/page6.png", "text": "Rats run from the nest. Dom kicks a can and gets dust on Nick’s pants and socks. ‘Dom!’" },
+            { "image": "assets/stories/level2/story9/page7.png", "text": "‘Is this your mat, Nick?’  Dom picks up a mat with gunk on it." },
+            { "image": "assets/stories/level2/story9/page8.png", "text": "’That gunk stinks, Dom! Stop!’ Nick snaps at the dragon. Dom drops the mat and runs up a ramp." },
+            { "image": "assets/stories/level2/story9/page9.png", "text": "Dom picks up one pot with a crack in it and drops it. He romps in the dust and mud." },
+            { "image": "assets/stories/level2/story9/page10.png", "text": "‘Dom, get in the truck.’ Nick is mad. ‘You are not to run at the dump.’" }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "Who is at the dump with Nick?",
+                "options": ["Pat", "Dom the dragon", "Pip"],
+                "answer": "Dom the dragon"
+              },
+              {
+                "question": "What does Dom find in the tent?",
+                "options": ["A mat", "A rat’s nest", "A sock"],
+                "answer": "A rat’s nest"
+              },
+              {
+                "question": "What gets on Nick’s pants and socks?",
+                "options": ["Mud", "Gunk", "Dust"],
+                "answer": "Dust"
+              },
+              {
+                "question": "What does Dom drop after Nick snaps at him?",
+                "options": ["A rat", "The mat", "A stick"],
+                "answer": "The mat"
+              },
+              {
+                "question": "Where does Nick tell Dom to go at the end?",
+                "options": ["To the ramp", "To the tent", "To the truck"],
+                "answer": "To the truck"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level2_story10",
+          "title": "Cat and rat",
+          "pages": [
+            { "image": "assets/stories/level2/story10/page1.png", "text": "Level 2 Book 10. Cat and rat!" },
+            { "image": "assets/stories/level2/story10/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level2/story10/page3.png", "text": "Pip and Pat step to the pond and spot a cat on the dock. By the sand, a rat rests in a nest." },
+            { "image": "assets/stories/level2/story10/page4.png", "text": "'The cat will catch the rat,' says Pip. Pat points to the nest and says, 'The rat must run!'" },
+            { "image": "assets/stories/level2/story10/page5.png", "text": "The rat nips out of the nest and taps its head. Pip says, 'What can we do? The cat will get it!'" },
+            { "image": "assets/stories/level2/story10/page6.png", "text": "Pat claps his hands to stop the cat. The cat smacks the dust and spins with a hiss." },
+            { "image": "assets/stories/level2/story10/page7.png", "text": "The rat sprints out of the nest to a rock. The cat runs after it, but skids in the mud." },
+            { "image": "assets/stories/level2/story10/page8.png", "text": "'Meow!' says the cat as it gets stuck in the mud. Pip and Pat grin and point at the cat in the mud." },
+            { "image": "assets/stories/level2/story10/page9.png", "text": "The rat runs to the rock and sits. Pip taps Pat and says, 'We did it!'" },
+            { "image": "assets/stories/level2/story10/page10.png", "text": "The cat, with suds and dust on it, stomps in the mud. Pat says, 'The cat must step into the pond!'" },
+            { "image": "assets/stories/level2/story10/page11.png", "text": "Pip and Pat run to the rat by the rock. The rat nods at them, as if to say thanks." },
+            { "image": "assets/stories/level2/story10/page12.png", "text": "Pip and Pat step back to their tent. 'That was fun!' says Pat, and Pip nods with a grin." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "Where do Pip and Pat spot the cat?",
+                "options": ["In the tent", "On the dock", "In the mud"],
+                "answer": "On the dock"
+              },
+              {
+                "question": "What does Pat do to stop the cat?",
+                "options": ["Claps his hands", "Throws a rock", "Runs at it"],
+                "answer": "Claps his hands"
+              },
+              {
+                "question": "Where does the rat run to escape the cat?",
+                "options": ["The tent", "The dock", "A rock"],
+                "answer": "A rock"
+              },
+              {
+                "question": "What happens to the cat in the mud?",
+                "options": ["It hides", "It gets stuck", "It naps"],
+                "answer": "It gets stuck"
+              },
+              {
+                "question": "How does the rat respond at the end?",
+                "options": ["Runs away", "Sits and nods", "Hides under a mat"],
+                "answer": "Sits and nods"
+              }
+            ]
+          }        
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Level 3",
+      "storybooks": [
+        {
+          "id": "level3_story1",
+          "title": "Van and Fox in the Box",
+          "pages": [
+            { "image": "assets/stories/level3/story1/page1.png", "text": "Level 3 Book 1. Fox!" },
+            { "image": "assets/stories/level3/story1/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level3/story1/page3.png", "text": "Van and Buzz went to the hill. They had buns, jam, and a red box." },
+            { "image": "assets/stories/level3/story1/page4.png", "text": "Van sat on the box in the sun next to a log. Six bugs and a big yak sat on the log." },
+            { "image": "assets/stories/level3/story1/page5.png", "text": "Buzz and Van got a stick for Fox. \"Run, Fox, get the stick. Can you run?\"" },
+            { "image": "assets/stories/level3/story1/page6.png", "text": "But Fox did not get the stick. Fox ran to the bugs. He ran in the mud. He ran to the log." },
+            { "image": "assets/stories/level3/story1/page7.png", "text": "\"Stop, Fox! You must not run to the log!\" Van got mad. \"Stop, Fox! Stop!\"" },
+            { "image": "assets/stories/level3/story1/page8.png", "text": "He was a bad fox. He was wet. He had mud on him." },
+            { "image": "assets/stories/level3/story1/page9.png", "text": "Fox was sad. He sat by Van. Fox was hot. He had a big sip and a bun." },
+            { "image": "assets/stories/level3/story1/page10.png", "text": "He had a nap in the sun." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "Who went to the hill with Van?",
+                "options": ["Fox", "Buzz", "Yak", "Bug"],
+                "answer": "Buzz"
+              },
+              {
+                "question": "What did Van and Buzz bring to the hill?",
+                "options": ["Buns, jam, and a red box", "Sticks and mud", "Bugs and yak", "Sun and log"],
+                "answer": "Buns, jam, and a red box"
+              },
+              {
+                "question": "What did Fox do instead of getting the stick?",
+                "options": ["Sat in the sun", "Ran to the bugs", "Had a nap", "Got mad"],
+                "answer": "Ran to the bugs"
+              },
+              {
+                "question": "What did Fox have at the end?",
+                "options": ["A stick", "A big sip and a bun", "Mud and bugs", "A red box"],
+                "answer": "A big sip and a bun"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level3_story2",
+          "title": "Tid the Pup",
+          "pages": [
+            { "image": "assets/stories/level3/story2/page1.png", "text": "Level 3 Book 2. Tid the Pup!" },
+            { "image": "assets/stories/level3/story2/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level3/story2/page3.png", "text": "There is a pup on the mat." },
+            { "image": "assets/stories/level3/story2/page4.png", "text": "This is Tid. He sits next to Jay and gets a big gulp of water." },
+            { "image": "assets/stories/level3/story2/page5.png", "text": "Jay pats him and picks him up. Jay hugs Tid and rubs his back." },
+            { "image": "assets/stories/level3/story2/page6.png", "text": "Up jumps the pup and zips across the mat. He stops at the box, then jumps on the bed." },
+            { "image": "assets/stories/level3/story2/page7.png", "text": "There is a problem. The pup will not stop. He runs left and then right. He yelps and spins." },
+            { "image": "assets/stories/level3/story2/page8.png", "text": "\"Stop, Tid! Stop! Do not run there!\" said Jay. But Tid did not stop." },
+            { "image": "assets/stories/level3/story2/page9.png", "text": "He hops in the bin. He jumps on the red bag. Tid flings the fan and bumps the cup." },
+            { "image": "assets/stories/level3/story2/page10.png", "text": "The jug falls off the box and Tid gets stuck next to the bed." },
+            { "image": "assets/stories/level3/story2/page11.png", "text": "Up jumps Jay. Jay zips to Tid and grabs him. He lifts the pup and hugs him." },
+            { "image": "assets/stories/level3/story2/page12.png", "text": "\"No more tricks,\" said Jay. She pops Tid back on the mat." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What is the name of the pup?",
+                "options": ["Jay", "Tip", "Tid"],
+                "answer": "Tid"
+              },
+              {
+                "question": "What does Jay do after Tid drinks water?",
+                "options": ["Pats and hugs him", "Tells him to sit", "Gives him food"],
+                "answer": "Pats and hugs him"
+              },
+              {
+                "question": "Where does Tid jump after stopping at the box?",
+                "options": ["On the mat", "On the bed", "In the bin"],
+                "answer": "On the bed"
+              },
+              {
+                "question": "What falls off the box?",
+                "options": ["A cup", "A fan", "A jug"],
+                "answer": "A jug"
+              },
+              {
+                "question": "What does Jay say at the end?",
+                "options": ["Jump, Tid!", "No more tricks", "Let’s run!"],
+                "answer": "No more tricks"
+              }
+            ]
+          }        
+        },
+        {
+          "id": "level3_story3",
+          "title": "Go on a Picnic",
+          "pages": [
+            { "image": "assets/stories/level3/story3/page1.png", "text": "Level 3 Book 3. Go on a Picnic!" },
+            { "image": "assets/stories/level3/story3/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level3/story3/page3.png", "text": "Nick and Jay got in the red van. They were off on a big picnic trip." },
+            { "image": "assets/stories/level3/story3/page4.png", "text": "When they got there, they set up camp by the pond. Jay got the tent and Nick got the pegs. \"Let’s grab lots of sticks,\" said Jay." },
+            { "image": "assets/stories/level3/story3/page5.png", "text": "The sun was hot. Nick went to get the zinc and a hat. \"The sun is so hot,\" said Jay." },
+            { "image": "assets/stories/level3/story3/page6.png", "text": "They ran to the pond. “Can we have a swim?” said Nick. \"No,\" said Jay. \"There are animals in the pond.\"" },
+            { "image": "assets/stories/level3/story3/page7.png", "text": "\"Look,\" said Jay. \"Six ducks, a frog, and a fat bug!\" " },
+            { "image": "assets/stories/level3/story3/page8.png", "text": "They sat on a rug and had snacks. They had buns, jam, and cold fizz. Nick gave Max the dog a snack too." },
+            { "image": "assets/stories/level3/story3/page9.png", "text": "Then Nick and Jay ran up the big hill. \"We can zig zag to the top,\" said Jay. \"We can jump across the steps,\" said Nick." },
+            { "image": "assets/stories/level3/story3/page10.png", "text": "At the end, they went back to the van. \"We had such fun!\" said Nick." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What color was the van Nick and Jay took?",
+                "options": ["Red", "Blue", "Green"],
+                "answer": "Red"
+              },
+              {
+                "question": "Where did they set up camp?",
+                "options": ["By the beach", "By the hill", "By the pond"],
+                "answer": "By the pond"
+              },
+              {
+                "question": "Why didn’t they swim in the pond?",
+                "options": ["It was too cold", "Jay forgot swimsuits", "There were animals in the pond"],
+                "answer": "There were animals in the pond"
+              },
+              {
+                "question": "What snack did they have?",
+                "options": ["Buns, jam, and fizz", "Chips and juice", "Nuts and water"],
+                "answer": "Buns, jam, and fizz"
+              },
+              {
+                "question": "What did they do at the end of the day?",
+                "options": ["Went to swim", "Went back to the van", "Sat on the hill"],
+                "answer": "Went back to the van"
+              }
+            ]
+          }       
+        },
+        {
+          "id": "level3_story4",
+          "title": "Which one?",
+          "pages": [
+            { "image": "assets/stories/level3/story4/page1.png", "text": "Level 3 Book 4. Which one?" },
+            { "image": "assets/stories/level3/story4/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level3/story4/page3.png", "text": "Which hat will Nan get — the red one with dots, or the pink one with a gold band?" },
+            { "image": "assets/stories/level3/story4/page4.png", "text": "Which can Nat pick — the red golf bag or the black bat next to the bed?" },
+            { "image": "assets/stories/level3/story4/page5.png", "text": "Which is for Max — the top that spins or the six sticks on the deck?" },
+            { "image": "assets/stories/level3/story4/page6.png", "text": "Which drink will Nan have — hot milk in the mug or pink fizz in the cup?" },
+            { "image": "assets/stories/level3/story4/page7.png", "text": "Which dress will Nat get — the red one with a black belt or the gold one with a jacket?" },
+            { "image": "assets/stories/level3/story4/page8.png", "text": "Which toy can Nan grab — the red rocket in the box or the black truck with words on it?" },
+            { "image": "assets/stories/level3/story4/page9.png", "text": "Which snack will Nat pick — jam buns on the mat or hot buns in the bag?" },
+            { "image": "assets/stories/level3/story4/page10.png", "text": "Which will you pick — the gold locket, red sled, or jazz trumpet from the band?" }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What color is the hat with a gold band that Nan might get?",
+                "options": ["Red", "Pink", "Black"],
+                "answer": "Pink"
+              },
+              {
+                "question": "What is next to the bed for Nat to choose?",
+                "options": ["A black bat", "A red sled", "A gold locket"],
+                "answer": "A black bat"
+              },
+              {
+                "question": "What is for Max in the story?",
+                "options": ["Six sticks on the deck", "A top that spins", "A truck with words"],
+                "answer": "A top that spins"
+              },
+              {
+                "question": "Which drink is in the cup?",
+                "options": ["Hot milk", "Pink fizz", "Jam"],
+                "answer": "Pink fizz"
+              },
+              {
+                "question": "What are the three things listed at the end to choose from?",
+                "options": ["Sled, trumpet, rocket", "Locket, sled, trumpet", "Dress, can, mug"],
+                "answer": "Locket, sled, trumpet"
+              }
+            ]
+          }    
+        },
+        {
+          "id": "level3_story5",
+          "title": "What Can You Do?",
+          "pages": [
+            { "image": "assets/stories/level3/story5/page1.png", "text": "Level 3 Book 5. What Can You Do?" },
+            { "image": "assets/stories/level3/story5/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level3/story5/page3.png", "text": "What can you do? Can you hop, skip, and flip? Can you ride, spin, and jump? Can you do your best tricks?" },
+            { "image": "assets/stories/level3/story5/page4.png", "text": "What can Rex do? \"I can box, jog, and do laps,\" said Rex with a grin. \"That is top stuff!\" they all said." },
+            { "image": "assets/stories/level3/story5/page5.png", "text": "What can Meg do? \"I can skip, twirl, and kick a ball into the net!\" said Meg. \"That is magic!\" they all said." },
+            { "image": "assets/stories/level3/story5/page6.png", "text": "What can Pop do? \"I can dab, clap, tap, and twist,\" said Pop with a bop. \"That is gold!\" they all said." },
+            { "image": "assets/stories/level3/story5/page7.png", "text": "What can Gus do? \"I can hike, leap, hum, and juggle cups,\" said Gus with a wiggle. \"That is tops!\" they all said." },
+            { "image": "assets/stories/level3/story5/page8.png", "text": "What can Liz do? \"I can ride my scooter, zip fast, and spin on one foot!\" said Liz. \"That is fab!\" they all said." },
+            { "image": "assets/stories/level3/story5/page9.png", "text": "What can Zack do? \"I can zig zag, roll, sniff tracks, and wag my tail,\" said Zack the pup. \"That is a lot of tricks!\" they all said." },
+            { "image": "assets/stories/level3/story5/page10.png", "text": "What can you do?" }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What tricks can Rex do?",
+                "options": ["Skip and twirl", "Box, jog, and do laps", "Zigzag and sniff tracks"],
+                "answer": "Box, jog, and do laps"
+              },
+              {
+                "question": "Who can kick a ball into the net?",
+                "options": ["Meg", "Gus", "Pop"],
+                "answer": "Meg"
+              },
+              {
+                "question": "What does Pop say he can do?",
+                "options": ["Clap, tap, twist, and dab", "Juggle and hike", "Roll and sniff"],
+                "answer": "Clap, tap, twist, and dab"
+              },
+              {
+                "question": "What can Zack the pup do?",
+                "options": ["Dab and clap", "Sniff tracks and wag his tail", "Skip and kick a ball"],
+                "answer": "Sniff tracks and wag his tail"
+              },
+              {
+                "question": "What does Liz ride?",
+                "options": ["A bike", "A skateboard", "A scooter"],
+                "answer": "A scooter"
+              }
+            ]
+          }  
+        },
+        {
+          "id": "level3_story6",
+          "title": "Go Camping",
+          "pages": [
+            { "image": "assets/stories/level3/story6/page1.png", "text": "Level 3 Book 6. Go Camping!" },
+            { "image": "assets/stories/level3/story6/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level3/story6/page3.png", "text": "Pat and Sid are at camp. They have a small cabin and sit on a rug to snack." },
+            { "image": "assets/stories/level3/story6/page4.png", "text": "Sid is a dog. Pat puts on a hat and gives one to Sid. \"Let’s go swim,\" says Pat." },
+            { "image": "assets/stories/level3/story6/page5.png", "text": "\"Sid cannot swim,\" Pat says. \"He will smell yuck,\" says Pat. \"He can sit and rest.\"" },
+            { "image": "assets/stories/level3/story6/page6.png", "text": "Pat zips to the pond. He swims six laps. He flips, kicks, and spins back." },
+            { "image": "assets/stories/level3/story6/page7.png", "text": "Sid sits on a mat. He is sad. He cannot swim like Pat." },
+            { "image": "assets/stories/level3/story6/page8.png", "text": "Pat swims to Sid. \"I will stop,\" Pat says. He jumps up to sit with Sid." },
+            { "image": "assets/stories/level3/story6/page9.png", "text": "Pat slips on a plant. Sid drops in with a splash. Pat helps him up." },
+            { "image": "assets/stories/level3/story6/page10.png", "text": "Back at the cabin, Pat dabs Sid with a rag. Sid smells bad but wags his tail." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "Where are Pat and Sid?",
+                "options": ["At school", "At camp", "At the beach"],
+                "answer": "At camp"
+              },
+              {
+                "question": "What does Pat do at the pond?",
+                "options": ["Flips, kicks, and swims", "Picks flowers", "Feeds Sid"],
+                "answer": "Flips, kicks, and swims"
+              },
+              {
+                "question": "Why is Sid sad?",
+                "options": ["He is hungry", "He cannot swim like Pat", "He lost his hat"],
+                "answer": "He cannot swim like Pat"
+              },
+              {
+                "question": "What happens when Pat slips on a plant?",
+                "options": ["He drops the snacks", "Sid jumps into the pond", "Sid falls in with a splash"],
+                "answer": "Sid falls in with a splash"
+              },
+              {
+                "question": "How does Sid feel at the end?",
+                "options": ["He is mad", "He is sick", "He wags his tail"],
+                "answer": "He wags his tail"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level3_story7",
+          "title": "Max and Min",
+          "pages": [
+            { "image": "assets/stories/level3/story7/page1.png", "text": "Level 3 Book 7. Max and Min!" },
+            { "image": "assets/stories/level3/story7/page2.png", "text": "From next page. Click word to hear them sound." },
+            { "image": "assets/stories/level3/story7/page3.png", "text": "Max and Min went to the rocks to spot animals and pick snapdragons. They saw a rat and a wombat near the path." },
+            { "image": "assets/stories/level3/story7/page4.png", "text": "They picked pink snapdragons and packed them in a red bag. \"This is fun!\" said Min. \"Yes!\" said Max." },
+            { "image": "assets/stories/level3/story7/page5.png", "text": "Next day, Max went for a run. He stopped for a snack and a drink. He spotted bugs and flicked them off the mat." },
+            { "image": "assets/stories/level3/story7/page6.png", "text": "Min was not with him. He did not run or snack or flick bugs. \"What about me?\" said Min. Min was sad." },
+            { "image": "assets/stories/level3/story7/page7.png", "text": "So Min went to jump and flip on the hill. He did fun tricks and rolled on the grass." },
+            { "image": "assets/stories/level3/story7/page8.png", "text": "Max was not with him. He did not jump or flip or roll. \"What about me?\" said Max. Max was sad." },
+            { "image": "assets/stories/level3/story7/page9.png", "text": "Max and Min met by the tent. \"Let’s have a picnic,\" said Max. Min gave a big nod." },
+            { "image": "assets/stories/level3/story7/page10.png", "text": "They had buns, nuts, and cold drinks. They sat on a rug and smiled. \"This is best!\" they both said." }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What did Max and Min see near the path?",
+                "options": ["A cat and a dog", "A rat and a wombat", "A frog and a bird"],
+                "answer": "A rat and a wombat"
+              },
+              {
+                "question": "What did Max do the next day?",
+                "options": ["Jumped and flipped", "Went for a run and had a snack", "Rolled on the grass with Min"],
+                "answer": "Went for a run and had a snack"
+              },
+              {
+                "question": "Why was Min sad?",
+                "options": ["He missed his snack", "He got hurt", "Max was not with him"],
+                "answer": "Max was not with him"
+              },
+              {
+                "question": "What did Max and Min do when they met by the tent?",
+                "options": ["Went swimming", "Had a picnic", "Picked more flowers"],
+                "answer": "Had a picnic"
+              },
+              {
+                "question": "What did they say at the end?",
+                "options": ["This is boring", "This is best", "Let’s go home"],
+                "answer": "This is best"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Level 4",
+      "storybooks": [
+        {
+          "id": "level4_story1",
+          "title": "Buzz and the Shell",
+          "pages": [
+            {
+              "image": "assets/stories/level4/story1/page1.png",
+              "text": "Level 4 Book 1. Buzz and the Shell!"
+            },
+            {
+              "image": "assets/stories/level4/story1/page2.png",
+              "text": "From next page. Click word to hear them sound."
+            },
+            {
+              "image": "assets/stories/level4/story1/page3.png",
+              "text": "Buzz the bug sat on a log in the sun, watching the soft sand shimmer near the rocks."
+            },
+            {
+              "image": "assets/stories/level4/story1/page4.png",
+              "text": "He spotted a shiny shell tucked under a twig and zipped over with a big buzz."
+            },
+            {
+              "image": "assets/stories/level4/story1/page5.png",
+              "text": "Buzz tapped the shell with his leg - tap, tap! - and out came a sleepy crab."
+            },
+            {
+              "image": "assets/stories/level4/story1/page6.png",
+              "text": "The crab did not snap or scuttle away. Instead, it picked up a stick and made a trail in the sand."
+            },
+            {
+              "image": "assets/stories/level4/story1/page7.png",
+              "text": "Buzz followed the trail and hummed a happy tune as the wind rushed past."
+            },
+            {
+              "image": "assets/stories/level4/story1/page8.png",
+              "text": "The two new pals sat together on the shell and watched the waves crash and splash."
+            },
+            {
+              "image": "assets/stories/level4/story1/page9.png",
+              "text": "Buzz sipped from a tiny nut cup, and the crab munched on sea grass."
+            },
+            {
+              "image": "assets/stories/level4/story1/page10.png",
+              "text": "They rested in the sun, glad for the fun and their brand - new friendship."
+            }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What animal is the main character?",
+                "options": [
+                  "Bug",
+                  "Fox",
+                  "Duck",
+                  "Puffin"
+                ],
+                "answer": "Buzz"
+              },
+              {
+                "question": "What did the animal do?",
+                "options": [
+                  "Jumped in mud",
+                  "Found a snack",
+                  "Ran away",
+                  "Sat on a box"
+                ],
+                "answer": "Found a snack"
+              },
+              {
+                "question": "Where did the story happen?",
+                "options": [
+                  "In a house",
+                  "At a pond",
+                  "On a hill",
+                  "By the deck"
+                ],
+                "answer": "At a pond"
+              },
+              {
+                "question": "How did the animal feel?",
+                "options": [
+                  "Sad",
+                  "Glad",
+                  "Mad"
+                ],
+                "answer": "Glad"
+              },
+              {
+                "question": "What is the last thing the animal did?",
+                "options": [
+                  "Took a nap",
+                  "Jumped",
+                  "Got a fish",
+                  "Buzzed"
+                ],
+                "answer": "Buzzed"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level4_story2",
+          "title": "Chick in the Nest",
+          "pages": [
+            {
+              "image": "assets/stories/level4/story2/page1.png",
+              "text": "Level 4 Book 2. Chick in the Nest!"
+            },
+            {
+              "image": "assets/stories/level4/story2/page2.png",
+              "text": "From next page. Click word to hear them sound."
+            },
+            {
+              "image": "assets/stories/level4/story2/page3.png",
+              "text": "High on a windy hill, a chick chirped in its nest, the leaves rustling all around."
+            },
+            {
+              "image": "assets/stories/level4/story2/page4.png",
+              "text": "The nest wobbled on a thick branch as the wind whooshed past with a strong push."
+            },
+            {
+              "image": "assets/stories/level4/story2/page5.png",
+              "text": "The little chick gave a loud 'chip! chip!' hoping someone would hear."
+            },
+            {
+              "image": "assets/stories/level4/story2/page6.png",
+              "text": "A duck heard the call and flapped up to the branch, wings wide, eyes bright."
+            },
+            {
+              "image": "assets/stories/level4/story2/page7.png",
+              "text": "It gently picked up the chick and glided down, landing on the soft moss below."
+            },
+            {
+              "image": "assets/stories/level4/story2/page8.png",
+              "text": "With care, the duck placed the chick in a new nest near a stump."
+            },
+            {
+              "image": "assets/stories/level4/story2/page9.png",
+              "text": "The chick fluffed its wings, blinked twice, and gave a happy chirp."
+            },
+            {
+              "image": "assets/stories/level4/story2/page10.png",
+              "text": "The wind was still, the nest was firm, and the chick curled up for a nap."
+            }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What animal is the main character?",
+                "options": [
+                  "Bug",
+                  "Fox",
+                  "Duck",
+                  "Puffin"
+                ],
+                "answer": "Chick"
+              },
+              {
+                "question": "What did the animal do?",
+                "options": [
+                  "Jumped in mud",
+                  "Found a snack",
+                  "Ran away",
+                  "Sat on a box"
+                ],
+                "answer": "Found a snack"
+              },
+              {
+                "question": "Where did the story happen?",
+                "options": [
+                  "In a house",
+                  "At a pond",
+                  "On a hill",
+                  "By the deck"
+                ],
+                "answer": "On a hill"
+              },
+              {
+                "question": "How did the animal feel?",
+                "options": [
+                  "Sad",
+                  "Glad",
+                  "Mad"
+                ],
+                "answer": "Glad"
+              },
+              {
+                "question": "What is the last thing the animal did?",
+                "options": [
+                  "Took a nap",
+                  "Jumped",
+                  "Got a fish",
+                  "Buzzed"
+                ],
+                "answer": "Buzzed"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level4_story3",
+          "title": "The Fox and the Cliff",
+          "pages": [
+            {
+              "image": "assets/stories/level4/story3/page1.png",
+              "text": "Level 4 Book 3. The Fox and the Cliff!"
+            },
+            {
+              "image": "assets/stories/level4/story3/page2.png",
+              "text": "From next page. Click word to hear them sound."
+            },
+            {
+              "image": "assets/stories/level4/story3/page3.png",
+              "text": "The fox dashed up the rocky path to the edge of a tall cliff, his paws light on the grass."
+            },
+            {
+              "image": "assets/stories/level4/story3/page4.png",
+              "text": "He stopped and sniffed the breeze - it was fresh and full of sea mist."
+            },
+            {
+              "image": "assets/stories/level4/story3/page5.png",
+              "text": "At the top, he spotted a red flag flapping on a post stuck between two rocks."
+            },
+            {
+              "image": "assets/stories/level4/story3/page6.png",
+              "text": "The fox crouched low, then jumped from stone to stone, tail straight for balance."
+            },
+            {
+              "image": "assets/stories/level4/story3/page7.png",
+              "text": "He dug his claws into the moss and climbed up with one big push."
+            },
+            {
+              "image": "assets/stories/level4/story3/page8.png",
+              "text": "He grabbed the flag with his teeth and gave a proud wag of his tail."
+            },
+            {
+              "image": "assets/stories/level4/story3/page9.png",
+              "text": "He raced back to his den, the flag waving behind like a bright badge."
+            },
+            {
+              "image": "assets/stories/level4/story3/page10.png",
+              "text": "Back home, the fox hung the flag and curled up on a rug, dreaming of his climb."
+            }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What animal is the main character?",
+                "options": [
+                  "Bug",
+                  "Fox",
+                  "Duck",
+                  "Puffin"
+                ],
+                "answer": "The"
+              },
+              {
+                "question": "What did the animal do?",
+                "options": [
+                  "Jumped in mud",
+                  "Found a snack",
+                  "Ran away",
+                  "Sat on a box"
+                ],
+                "answer": "Found a snack"
+              },
+              {
+                "question": "Where did the story happen?",
+                "options": [
+                  "In a house",
+                  "At a pond",
+                  "On a hill",
+                  "By the deck"
+                ],
+                "answer": "At a pond"
+              },
+              {
+                "question": "How did the animal feel?",
+                "options": [
+                  "Sad",
+                  "Glad",
+                  "Mad"
+                ],
+                "answer": "Glad"
+              },
+              {
+                "question": "What is the last thing the animal did?",
+                "options": [
+                  "Took a nap",
+                  "Jumped",
+                  "Got a fish",
+                  "Buzzed"
+                ],
+                "answer": "Buzzed"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level4_story4",
+          "title": "Jazz the Fizz Bug",
+          "pages": [
+            {
+              "image": "assets/stories/level4/story4/page1.png",
+              "text": "Level 4 Book 4. Jazz the Fizz Bug!"
+            },
+            {
+              "image": "assets/stories/level4/story4/page2.png",
+              "text": "From next page. Click word to hear them sound."
+            },
+            {
+              "image": "assets/stories/level4/story4/page3.png",
+              "text": "Jazz the fizz bug zipped over the pond, her wings buzzing like a tiny fan."
+            },
+            {
+              "image": "assets/stories/level4/story4/page4.png",
+              "text": "She spotted a red cup on a deck and landed for a sip of sweet drink."
+            },
+            {
+              "image": "assets/stories/level4/story4/page5.png",
+              "text": "The fizz popped and tickled her feet. She spun in a loop, dizzy with joy."
+            },
+            {
+              "image": "assets/stories/level4/story4/page6.png",
+              "text": "She darted to a windowsill where a bell rang out a soft ding - ding."
+            },
+            {
+              "image": "assets/stories/level4/story4/page7.png",
+              "text": "A cat slept on a mat just below, its tail flicking as it dreamed."
+            },
+            {
+              "image": "assets/stories/level4/story4/page8.png",
+              "text": "Jazz hovered above and then zipped past with a loop and a giggle."
+            },
+            {
+              "image": "assets/stories/level4/story4/page9.png",
+              "text": "She spun back to the deck, wings glinting in the sun, and took one last sip."
+            },
+            {
+              "image": "assets/stories/level4/story4/page10.png",
+              "text": "Jazz found a petal to nap on, curled up, and hummed a soft tune to sleep."
+            }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What animal is the main character?",
+                "options": [
+                  "Bug",
+                  "Fox",
+                  "Duck",
+                  "Puffin"
+                ],
+                "answer": "Jazz"
+              },
+              {
+                "question": "What did the animal do?",
+                "options": [
+                  "Jumped in mud",
+                  "Found a snack",
+                  "Ran away",
+                  "Sat on a box"
+                ],
+                "answer": "Found a snack"
+              },
+              {
+                "question": "Where did the story happen?",
+                "options": [
+                  "In a house",
+                  "At a pond",
+                  "On a hill",
+                  "By the deck"
+                ],
+                "answer": "By the deck"
+              },
+              {
+                "question": "How did the animal feel?",
+                "options": [
+                  "Sad",
+                  "Glad",
+                  "Mad"
+                ],
+                "answer": "Glad"
+              },
+              {
+                "question": "What is the last thing the animal did?",
+                "options": [
+                  "Took a nap",
+                  "Jumped",
+                  "Got a fish",
+                  "Buzzed"
+                ],
+                "answer": "Buzzed"
+              }
+            ]
+          }
+        },
+        {
+          "id": "level4_story5",
+          "title": "The Puffin and the Fish",
+          "pages": [
+            {
+              "image": "assets/stories/level4/story5/page1.png",
+              "text": "Level 4 Book 5. The Puffin and the Fish!"
+            },
+            {
+              "image": "assets/stories/level4/story5/page2.png",
+              "text": "From next page. Click word to hear them sound."
+            },
+            {
+              "image": "assets/stories/level4/story5/page3.png",
+              "text": "A puffin flapped in from the sea and landed with a skid on a ship 's wide deck."
+            },
+            {
+              "image": "assets/stories/level4/story5/page4.png",
+              "text": "He spotted a box with fresh fish, stacked near the net and ropes."
+            },
+            {
+              "image": "assets/stories/level4/story5/page5.png",
+              "text": "He pecked at the lid with his sharp beak until - thud! - the box tipped."
+            },
+            {
+              "image": "assets/stories/level4/story5/page6.png",
+              "text": "A silver fish flopped onto the wood, then slipped off the edge into the pond."
+            },
+            {
+              "image": "assets/stories/level4/story5/page7.png",
+              "text": "The puffin gave a quick squawk and jumped right in with a big splash."
+            },
+            {
+              "image": "assets/stories/level4/story5/page8.png",
+              "text": "He scooped the fish in his beak and paddled back with flaps and kicks."
+            },
+            {
+              "image": "assets/stories/level4/story5/page9.png",
+              "text": "Back on the deck, he dropped the fish and gobbled it up with glee."
+            },
+            {
+              "image": "assets/stories/level4/story5/page10.png",
+              "text": "The puffin sat on a coil of rope, full and glad, watching the waves roll in."
+            }
+          ],
+          "game": {
+            "type": "quiz",
+            "questions": [
+              {
+                "question": "What animal is the main character?",
+                "options": [
+                  "Bug",
+                  "Fox",
+                  "Duck",
+                  "Puffin"
+                ],
+                "answer": "The"
+              },
+              {
+                "question": "What did the animal do?",
+                "options": [
+                  "Jumped in mud",
+                  "Found a snack",
+                  "Ran away",
+                  "Sat on a box"
+                ],
+                "answer": "Found a snack"
+              },
+              {
+                "question": "Where did the story happen?",
+                "options": [
+                  "In a house",
+                  "At a pond",
+                  "On a hill",
+                  "By the deck"
+                ],
+                "answer": "At a pond"
+              },
+              {
+                "question": "How did the animal feel?",
+                "options": [
+                  "Sad",
+                  "Glad",
+                  "Mad"
+                ],
+                "answer": "Glad"
+              },
+              {
+                "question": "What is the last thing the animal did?",
+                "options": [
+                  "Took a nap",
+                  "Jumped",
+                  "Got a fish",
+                  "Buzzed"
+                ],
+                "answer": "Buzzed"
+              }
+            ]
+          }
+        }      
+      ]
+    }
+  ]
+}
