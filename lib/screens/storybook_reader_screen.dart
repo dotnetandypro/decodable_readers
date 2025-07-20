@@ -10,6 +10,7 @@ import '../services/orientation_service.dart';
 import '../services/tts_service.dart';
 import '../services/word_audio_service.dart';
 import '../services/image_cache_service.dart';
+import '../services/word_audio_cache_service.dart';
 import '../theme/app_theme.dart';
 
 class StorybookReaderScreen extends StatefulWidget {
@@ -115,26 +116,33 @@ class _StorybookReaderScreenState extends State<StorybookReaderScreen>
     }
   }
 
-  /// Preload all images for this storybook
+  /// Preload all images and word audio for this storybook
   Future<void> _preloadStoryImages() async {
     try {
-      // Initialize image cache service
+      // Initialize services
       await ImageCacheService.initialize();
+      await WordAudioCacheService.initialize();
 
       // Extract all image paths from the storybook
       final imagePaths =
           widget.storybook.pages.map((page) => page.imagePath).toList();
 
+      // Extract all text content from the storybook
+      final allTexts = widget.storybook.pages.map((page) => page.text).toList();
+
       debugPrint(
           '📚 Preloading ${imagePaths.length} images for storybook: ${widget.storybook.title}');
 
-      // Preload all images
-      await ImageCacheService.preloadBookImages(imagePaths);
+      // Preload images and word audio in parallel
+      await Future.wait([
+        ImageCacheService.preloadBookImages(imagePaths),
+        WordAudioCacheService.preloadStorybookWordAudio(allTexts),
+      ]);
 
       debugPrint(
-          '✅ All images preloaded for storybook: ${widget.storybook.title}');
+          '✅ All images and word audio preloaded for storybook: ${widget.storybook.title}');
     } catch (e) {
-      debugPrint('❌ Failed to preload images: $e');
+      debugPrint('❌ Failed to preload content: $e');
     }
   }
 

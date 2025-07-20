@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'word_audio_cache_service.dart';
 
 class WordAudioService {
   static final WordAudioService _instance = WordAudioService._internal();
@@ -18,7 +19,7 @@ class WordAudioService {
 
     try {
       _audioPlayer = AudioPlayer();
-      
+
       // Set up event handlers
       _setupEventHandlers();
 
@@ -74,7 +75,8 @@ class WordAudioService {
     }
 
     if (_audioPlayer == null || word.trim().isEmpty) {
-      debugPrint('⚠️ Cannot play word: Audio player not initialized or empty word');
+      debugPrint(
+          '⚠️ Cannot play word: Audio player not initialized or empty word');
       return;
     }
 
@@ -85,20 +87,19 @@ class WordAudioService {
         await Future.delayed(const Duration(milliseconds: 100));
       }
 
-      // Clean the word (remove punctuation, convert to lowercase)
-      final cleanWord = _cleanWord(word);
-      
-      // Construct the asset path
-      final assetPath = 'wordfiles/$cleanWord.mp3';
-      
-      debugPrint('🎵 Playing word audio: "$cleanWord" from $assetPath');
-      
-      // Play the audio from assets
-      await _audioPlayer!.play(AssetSource(assetPath));
-      
+      // Get cached audio file path
+      final audioFilePath = await WordAudioCacheService.getWordAudioPath(word);
+
+      if (audioFilePath != null) {
+        debugPrint('🎵 Playing word audio: "$word" from cached file');
+
+        // Play the audio from cached file
+        await _audioPlayer!.play(DeviceFileSource(audioFilePath));
+      } else {
+        debugPrint('❌ No cached audio found for word: "$word"');
+      }
     } catch (e) {
       debugPrint('❌ Error playing word "$word": $e');
-      debugPrint('💡 Make sure the MP3 file exists: assets/wordfiles/${_cleanWord(word)}.mp3');
     }
   }
 
@@ -106,16 +107,16 @@ class WordAudioService {
   String _cleanWord(String word) {
     // Remove punctuation and convert to lowercase
     String cleaned = word.toLowerCase();
-    
+
     // Remove common punctuation marks
     cleaned = cleaned.replaceAll(RegExp(r'[^\w\s]'), '');
-    
+
     // Remove extra whitespace
     cleaned = cleaned.trim();
-    
+
     // Handle contractions and special cases
     cleaned = _handleSpecialCases(cleaned);
-    
+
     return cleaned;
   }
 
@@ -124,7 +125,7 @@ class WordAudioService {
     // Handle common contractions
     final contractions = {
       "can't": "cant",
-      "won't": "wont", 
+      "won't": "wont",
       "don't": "dont",
       "doesn't": "doesnt",
       "didn't": "didnt",
@@ -211,7 +212,7 @@ class WordAudioService {
     try {
       final cleanWord = _cleanWord(word);
       final assetPath = 'assets/wordfiles/$cleanWord.mp3';
-      
+
       // This is a simple check - in production you might want more sophisticated validation
       debugPrint('🔍 Checking if word audio exists: $assetPath');
       return true; // Assume it exists for now

@@ -8,6 +8,7 @@ import 'services/settings_service.dart';
 import 'services/progress_service.dart';
 import 'services/image_cache_service.dart';
 import 'services/cover_image_cache_service.dart';
+import 'services/word_audio_cache_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,6 +24,9 @@ void main() async {
 
   // Initialize cover image cache service
   await CoverImageCacheService.initialize();
+
+  // Initialize word audio cache service
+  await WordAudioCacheService.initialize();
 
   runApp(const DecodableReaderApp());
 }
