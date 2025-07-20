@@ -2,13 +2,19 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import '../models/story_models.dart';
+import 'settings_service.dart';
 
 class SettingsLoader {
   static Future<List<Level>> loadLevelsFromSettings() async {
     try {
-      final String jsonString =
-          await rootBundle.loadString('assets/settings.json');
-      final Map<String, dynamic> jsonData = json.decode(jsonString);
+      // Get settings from SettingsService (which loads from remote)
+      await SettingsService.instance.loadSettings();
+      final Map<String, dynamic>? jsonData = SettingsService.instance.settings;
+
+      if (jsonData == null) {
+        debugPrint('❌ No settings available from SettingsService');
+        return [];
+      }
 
       final List<dynamic> levelsJson = jsonData['levels'];
 

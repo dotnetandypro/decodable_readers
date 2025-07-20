@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:page_flip/page_flip.dart';
 import '../theme/app_theme.dart';
 import '../widgets/cached_story_image.dart';
+import '../services/settings_service.dart';
 
 class StorybookReaderScreen extends StatefulWidget {
   final int level;
@@ -30,15 +31,33 @@ class _StorybookReaderScreenState extends State<StorybookReaderScreen> {
   }
 
   Future<void> _loadStoryData() async {
-    final String data = await rootBundle.loadString('assets/settings.json');
-    final json = jsonDecode(data);
-    final levelData = json['levels'][widget.level - 1];
-    final story = levelData['storybooks'][widget.book - 1];
-    setState(() {
-      pages = story['pages'];
-      gameData = story['game'];
-      isLoading = false;
-    });
+    try {
+      // Get settings from SettingsService (which loads from remote)
+      await SettingsService.instance.loadSettings();
+      final Map<String, dynamic>? settings = SettingsService.instance.settings;
+
+      if (settings == null) {
+        debugPrint('❌ No settings available from SettingsService');
+        setState(() {
+          isLoading = false;
+        });
+        return;
+      }
+
+      final json = settings;
+      final levelData = json['levels'][widget.level - 1];
+      final story = levelData['storybooks'][widget.book - 1];
+      setState(() {
+        pages = story['pages'];
+        gameData = story['game'];
+        isLoading = false;
+      });
+    } catch (e) {
+      debugPrint('❌ Error loading story data: $e');
+      setState(() {
+        isLoading = false;
+      });
+    }
   }
 
   void playPhonicsSound(String word) {
